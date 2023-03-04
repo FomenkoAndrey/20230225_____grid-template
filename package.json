@@ -2,6 +2,9 @@
   "name": "gulp",
   "version": "2.0.0",
   "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-checker -exclude \"(libs|img|psd|bootstrap|normalize\\.|reset\\.)\""
+  },
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
@@ -16,6 +19,7 @@
     "postcss": "^8.4.21",
     "postcss-discard-comments": "^5.1.2",
     "sass": "^1.58.0",
-    "sort-css-media-queries": "^2.1.0"
+    "sort-css-media-queries": "^2.1.0",
+    "editorconfig-checker": "^5.0.1"
   }
 }

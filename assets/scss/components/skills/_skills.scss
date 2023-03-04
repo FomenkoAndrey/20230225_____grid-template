@@ -1,6 +1,7 @@
 @use "../../presets" as *;
 @use "../../mixins" as *;
 @use "sass:math";
+
 $local-gap: math.div(40px, 3);
 
 .skills {
