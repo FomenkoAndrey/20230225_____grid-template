@@ -169,8 +169,7 @@ template {
 .header-menu__container,
 .header-content__container {
   width: min(100% - 40px, 1300px);
-
-  margin-inline: auto;
+  margin: auto;
 }
 *,
 *::before,
